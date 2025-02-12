@@ -76,21 +76,21 @@ button {
 }
 
 .top-left {
-    top: 25px;
-    left: 25px;
+    top: 5px;
+    left: 5px;
 }
 
 .bottom-right {
-    bottom: 25px;
-    right: 25px;
+    bottom: 5px;
+    right: 5px;
 }
 
 .bottom-left {
-    bottom: 25px;
-    left: 25px;
+    bottom: 5px;
+    left: 5px;
 }
 
 .top-right {
-    top: 25px;
-    right: 25px;
+    top: 5px;
+    right: 5px;
 }
