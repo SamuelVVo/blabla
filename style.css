@@ -1,12 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
     text-align: center;
     padding: 20px;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
 }
 
 .mensaje {
     display: none;
+    margin: 20px;
+    padding: 20px;
 }
 
 .mensaje.active {
@@ -14,49 +31,46 @@ body {
 }
 
 #mensaje1.active {
-    background-color: lightyellow;
+    background-color: lightblue;
 }
 
 #mensaje2.active {
-    background-color: lightblue;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-tive {
-    display: block;
-    background-color: lightblue;
-}
-
-.hidden {
-    display: none;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button {
-    background-color: #4CAF50; /* Verde */
+    background-color: black;
     color: white;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
-    cursor: pointer;
-    border-radius: 4px;
 }
 
-button:hover {
-    background-color: #45a049;
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.decorations {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+.love-image {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
 }
