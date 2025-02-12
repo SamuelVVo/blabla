@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.5s;
+    text-align: center;
+    padding: 20px;
 }
 
 .mensaje {
@@ -12,11 +14,20 @@ body {
 }
 
 #mensaje1.active {
-    display: block;
     background-color: lightyellow;
 }
 
 #mensaje2.active {
+    background-color: lightblue;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+tive {
     display: block;
     background-color: lightblue;
 }
