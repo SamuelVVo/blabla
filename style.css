@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    transition: background-color 0.5s, color 0.5s;
+    transition: color 0.5s;
     text-align: center;
     padding: 20px;
     margin: 0;
+    background-image: url('https://i.pinimg.com/736x/66/de/17/66de17bf34fa7282a259137039116fd2.jpg');
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
     border: 2px solid #ccc;
     border-radius: 10px;
     position: relative;
-    background-image: url('https://i.pinimg.com/736x/66/de/17/66de17bf34fa7282a259137039116fd2.jpg');
+    background-color: LightSalmon;
 }
 
 h1 {
