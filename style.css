@@ -1,25 +1,35 @@
 body {
-    background-color: white;
-    color: black;
-    transition: background-color 0.5s, color 0.5s;
-    text-align: center;
-    padding: 50px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s;
 }
 
-.message1 {
-    color: black;
+.mensaje {
+    display: none;
 }
 
-.message2 {
-    color: white;
+.mensaje.active {
+    display: block;
 }
 
-body.dark-mode .message1 {
-    color: white;
+#mensaje1.active {
+    display: block;
+    background-color: lightyellow;
 }
 
-body.dark-mode .message2 {
-    color: black;
+#mensaje2.active {
+    display: block;
+    background-color: lightblue;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 button {
