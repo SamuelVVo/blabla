@@ -72,14 +72,24 @@ button {
 
 .love-image {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
 }
 
 .top-left {
     top: 5px;
     left: 5px;
 }
+
+.top-right {
+    top: 5px;
+    right: 5px;
+}
+
+.love-image {
+    position: absolute;
+    width: 80px;
+    height: 80px;
 
 .bottom-right {
     bottom: 5px;
@@ -89,9 +99,4 @@ button {
 .bottom-left {
     bottom: 5px;
     left: 5px;
-}
-
-.top-right {
-    top: 5px;
-    right: 5px;
 }
