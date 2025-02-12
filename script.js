@@ -8,11 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (showFirstMessage) {
             mensaje1.classList.remove('active');
             mensaje2.classList.add('active');
-            document.body.style.backgroundColor = 'lightblue';
+            document.body.style.backgroundColor = 'black';
+            document.body.style.color = 'white';
         } else {
             mensaje2.classList.remove('active');
             mensaje1.classList.add('active');
-            document.body.style.backgroundColor = 'lightyellow';
+            document.body.style.backgroundColor = 'lightblue';
+            document.body.style.color = 'black';
         }
         showFirstMessage = !showFirstMessage;
     }
@@ -21,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Inicialmente muestra el primer mensaje y fondo
     mensaje1.classList.add('active');
-    document.body.style.backgroundColor = 'lightyellow';
+    document.body.style.backgroundColor = 'lightblue';
+    document.body.style.color = 'black';
 });
-
