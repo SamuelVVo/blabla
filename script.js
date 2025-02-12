@@ -1,29 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    transition: background-color 0.5s;
-    text-align: center;
-    padding: 20px;
-}
+document.addEventListener('DOMContentLoaded', function() {
+    const mensaje1 = document.getElementById('mensaje1');
+    const mensaje2 = document.getElementById('mensaje2');
+    const button = document.getElementById('toggleButton');
+    let showFirstMessage = true;
 
-.mensaje {
-    display: none;
-}
+    function toggleMessages() {
+        if (showFirstMessage) {
+            mensaje1.classList.remove('active');
+            mensaje2.classList.add('active');
+            document.body.style.backgroundColor = 'lightblue';
+        } else {
+            mensaje2.classList.remove('active');
+            mensaje1.classList.add('active');
+            document.body.style.backgroundColor = 'lightyellow';
+        }
+        showFirstMessage = !showFirstMessage;
+    }
 
-.mensaje.active {
-    display: block;
-}
+    button.addEventListener('click', toggleMessages);
 
-#mensaje1.active {
-    background-color: lightyellow;
-}
+    // Inicialmente muestra el primer mensaje y fondo
+    mensaje1.classList.add('active');
+    document.body.style.backgroundColor = 'lightyellow';
+});
 
-#mensaje2.active {
-    background-color: lightblue;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
