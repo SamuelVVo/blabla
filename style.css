@@ -13,7 +13,7 @@ body {
     border: 2px solid #ccc;
     border-radius: 10px;
     position: relative;
-    background-color: LightSalmon;
+    background-image: url('https://i.pinimg.com/736x/66/de/17/66de17bf34fa7282a259137039116fd2.jpg');
 }
 
 h1 {
@@ -59,7 +59,7 @@ button {
     pointer-events: none;
     top: 0;
     left: 0;
-    background-image: url('https://i.pinimg.com/736x/66/de/17/66de17bf34fa7282a259137039116fd2.jpg'); /* Imagen del marco de corazones */
+    background-image: url(''); /* Imagen del marco de corazones */
     background-size: cover;
     background-repeat: no-repeat;
 }
