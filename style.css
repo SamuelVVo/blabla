@@ -6,7 +6,11 @@ body {
     padding: 50px;
 }
 
-.hidden-message {
+.message1 {
+    color: black;
+}
+
+.message2 {
     color: white;
 }
 
