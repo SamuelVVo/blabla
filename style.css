@@ -72,8 +72,8 @@ button {
 
 .lovetop-image {
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 
 .top-left {
@@ -86,18 +86,6 @@ button {
     right: 15px;
 }
 
-.gatosb {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    bottom: 0;
-    left: 0;
-    background-image: url(''); /* Imagen del marco de corazones */
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-    
 .lovebottom-image {
     position: absolute;
     width: 80px;
