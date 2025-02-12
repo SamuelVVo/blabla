@@ -9,8 +9,8 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 40px;
+    max-width: 1050px;
+    padding: 55px;
     border: 2px solid #ccc;
     border-radius: 10px;
     position: relative;
