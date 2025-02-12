@@ -31,6 +31,7 @@ h1 {
 
 .mensaje.active {
     display: block;
+    transition: background-color 3s, color 3s;
 }
 
 #mensaje1.active {
@@ -71,8 +72,8 @@ button {
 
 .love-image {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .top-left {
