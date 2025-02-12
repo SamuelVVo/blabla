@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    transition: color 0.5s;
+    transition: color 4s;
     text-align: center;
     padding: 20px;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 10px;
