@@ -14,6 +14,14 @@ body {
     color: white;
 }
 
+body.dark-mode .message1 {
+    color: white;
+}
+
+body.dark-mode .message2 {
+    color: black;
+}
+
 button {
     background-color: #4CAF50; /* Verde */
     color: white;
