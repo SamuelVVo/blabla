@@ -4,35 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mensaje Secreto</title>
-    <style>
-        body {
-            background-color: white;
-            color: black;
-            transition: background-color 0.5s, color 0.5s;
-            text-align: center;
-            padding: 50px;
-        }
-        .hidden-message {
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Hola, mi amor 💖</h1>
-    <p>Este es el primer mensaje visible. <span class="hidden-message">Este es el mensaje oculto.</span></p>
+    <p>
+        <span class="message1">Palabra1</span>
+        <span class="message2">Palabra2</span>
+        <span class="message1">Palabra3</span>
+        <span class="message2">Palabra4</span>
+        <span class="message1">Palabra5</span>
+        <span class="message2">Palabra6</span>
+    </p>
     <button onclick="toggleBackground()">Cambiar Fondo</button>
 
-    <script>
-        function toggleBackground() {
-            const body = document.body;
-            if (body.style.backgroundColor === 'white') {
-                body.style.backgroundColor = 'black';
-                body.style.color = 'white';
-            } else {
-                body.style.backgroundColor = 'white';
-                body.style.color = 'black';
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
